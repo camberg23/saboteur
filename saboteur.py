@@ -190,23 +190,7 @@ def main():
                 <div class="big-title">Stoned Saboteur</div>
             """, unsafe_allow_html=True)
 
-    # Injecting CSS styles into the head of the document
-    st.markdown("""
-        <style>
-        .small-font {
-            font-size: 0.6em;
-        }
-        </style>
-        """, unsafe_allow_html=True)
-
-    # Displaying the image in column 1
     st.image('saboteur.png', width=500)
-
-    # st.markdown("""
-    # <style>
-    # .css-1wrcr25 { font-size: 2em; }
-    # </style>
-    # """, unsafe_allow_html=True)
 
     with st.expander("**How to play Stoned Saboteur**"):
         st.markdown("<div style='font-size: 0.8em; margin-bottom: 1em;'><strong>Note</strong>: The game is inherently designed for cannabis smoking. Enjoy responsibly!</div>", unsafe_allow_html=True)
