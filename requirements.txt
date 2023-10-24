@@ -1,0 +1,6 @@
+streamlit
+numpy
+twilio
+openai
+langchain
+base64
