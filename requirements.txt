@@ -3,4 +3,4 @@ numpy
 twilio
 openai
 langchain
-base64
+pybase64
