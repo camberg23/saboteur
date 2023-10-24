@@ -8,6 +8,12 @@ from langchain import OpenAI, PromptTemplate, LLMChain
 import re
 import base64
 
+# Set the page title, icon, and layout
+st.set_page_config(
+    page_title="Stoned Saboteur",
+    page_icon="saboteur.png",
+)
+
 # Set API key
 openai.api_key = st.secrets['OPENAI_API_KEY']
 
