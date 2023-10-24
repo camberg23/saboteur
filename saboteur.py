@@ -180,7 +180,16 @@ def reset_game():
 
 def main():
     # Title of the game
-    st.title('Stoned Saboteur')
+    st.markdown("""
+                <style>
+                    .big-title {
+                        font-size: 4em;  # Adjust the size as needed
+                        text-align: center;
+                        margin-top: 3em;  # Adjust the top margin for vertical centering
+                    }
+                </style>
+                <div class="big-title">Stoned Saboteur</div>
+            """, unsafe_allow_html=True)
 
     # Injecting CSS styles into the head of the document
     st.markdown("""
