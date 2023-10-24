@@ -183,9 +183,8 @@ def main():
     st.markdown("""
                 <style>
                     .big-title {
-                        font-size: 4em;  # Adjust the size as needed
+                        font-size: 5em;  # Adjust the size as needed
                         text-align: center;
-                        margin-top: 3em;  # Adjust the top margin for vertical centering
                     }
                 </style>
                 <div class="big-title">Stoned Saboteur</div>
